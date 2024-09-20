@@ -1,1 +1,1 @@
-# SocialFlux.ai
+# SocialFluxAI
