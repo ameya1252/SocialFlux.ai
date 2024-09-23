@@ -6,18 +6,26 @@
 ```plaintext
 social_media_app/
 │
-├── app.py                 # Main Flask app
-├── requirements.txt       # Required packages
-├── config.py              # Configurations and environment variables
-├── scheduler.py           # Scheduler-related functions
-├── services/
-│   ├── openai_service.py  # OpenAI-related functions
-│   ├── instagram_service.py  # Instagram API-related functions
-│   └── analytics_service.py  # Analytics and insights
-├── templates/
-│   └── layout.html        # HTML template for web-based reports (if any)
-└── static/
-    └── styles.css         # CSS for web-based reports (if any)
+├── android/                     # Android specific files
+├── ios/                         # iOS specific files
+├── node_modules/                # Node.js packages
+├── src/                         # Main source folder
+│   ├── api/                     # API service files for Instagram, OpenAI, and Analytics
+│   │   ├── instagramService.js
+│   │   ├── openaiService.js
+│   │   └── analyticsService.js
+│   ├── components/              # Reusable React components
+│   │   └── PostScheduler.js     # Post scheduling component
+│   ├── screens/                 # Screens for navigation
+│   │   ├── HomeScreen.js
+│   │   ├── InsightsScreen.js
+│   │   └── SchedulePostScreen.js
+│   ├── utils/                   # Utility functions
+│   │   └── scheduler.js         # Post scheduler logic
+│   ├── config.js                # Environment variables and API keys
+│   └── App.js                   # Main entry point of the app
+├── package.json                 # Project dependencies and scripts
+└── README.md                    # Project documentation
 ```
 ----
 
