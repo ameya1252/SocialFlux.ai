@@ -1,0 +1,34 @@
+﻿Disclaimer:
+The following is the intellectual property as a whole of the following individuals , everyone has equal share 
+Ambarish Kshirsagar, Amey Deshmukh, Akash Dudhane.
+
+Initial PDD.
+
+Description:- AI powered autonomous Social media handler, automated 
+
+Features:-
+* Post Scheduling and automation:-
+   * Automatic Post scheduling (Based on the current trends, in specific areas and timezones)
+   * Batch uploading, users can upload multiple pieces of content and the app can automatically schedule and optimize suggesting.
+   * Hashtag suggestions.
+   * Content category segregation.
+* Posting suggestions based on
+   * Seasons, Festivals, current trends, geospatial relevance.
+* AI generated content and captions
+   * Content:- 
+   * Suggest multiple versions of imgs suggested by AI models like DALLE and allow the user to finalize the version, same for captions.
+   * Custom captions templates.
+   * Captions tone variance.
+* Engagement analysis and insights.
+   * Comparison of post and their performance based on past posts.
+* Content Curation:
+   * Recommendations:-
+      * Suggest ideas that are trending and niche if required.
+      * Repost automation.
+* Competitor Analysis **** - To be decided.
+* Automated comment replies.
+* Sentiment analysis of all the social media comments and generate pulse score.
+* Influencer suggestions 
+* Reel templates suggestions.
+* DM management.
+* Collaboration recommendations, like other existing entities.
