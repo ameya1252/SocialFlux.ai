@@ -3,30 +3,45 @@
 
 ## Directory Structure
 
+### Backend
 ```plaintext
 social_media_app/
-│
-├── android/                     # Android specific files
-├── ios/                         # iOS specific files
-├── node_modules/                # Node.js packages
-├── src/                         # Main source folder
-│   ├── api/                     # API service files for Instagram, OpenAI, and Analytics
-│   │   ├── instagramService.js
-│   │   ├── openaiService.js
-│   │   └── analyticsService.js
-│   ├── components/              # Reusable React components
-│   │   └── PostScheduler.js     # Post scheduling component
-│   ├── screens/                 # Screens for navigation
-│   │   ├── HomeScreen.js
-│   │   ├── InsightsScreen.js
-│   │   └── SchedulePostScreen.js
-│   ├── utils/                   # Utility functions
-│   │   └── scheduler.js         # Post scheduler logic
-│   ├── config.js                # Environment variables and API keys
-│   └── App.js                   # Main entry point of the app
-├── package.json                 # Project dependencies and scripts
-└── README.md                    # Project documentation
+├── backend/
+│   ├── manage.py
+│   ├── socialflux/
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── scheduler/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   ├── urls.py
+│   │   └── tasks.py
+│   ├── api/
+│   │   └── instagramService.py
 ```
+### Frontend
+
+```plaintext
+
+social_media_app/
+├── src/
+│   ├── api/
+│   │   └── instagramService.js
+│   ├── components/
+│   │   └── PostScheduler.js
+│   ├── screens/
+│   │   └── SchedulePostScreen.js
+│   ├── App.js
+│   ├── config.js
+```
+
 ----
 
 **Disclaimer:**  
