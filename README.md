@@ -46,7 +46,7 @@ social_media_app/
 
 **Disclaimer:**  
 The following is the intellectual property of the following individuals, who share equal ownership:  
-**Ambarish Kshirsagar, Amey Deshmukh, Akash Dudhane.**
+**Ambarish Kshirsagar, Ameya Deshmukh, Akash Dudhane.**
 
 ---
 
